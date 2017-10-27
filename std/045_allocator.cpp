@@ -22,6 +22,8 @@ namespace user_first {
 			void print() {
 				std::cout << "_value =" << this->_value << endl;
 			}
+		//the extent of authority key words could be used as many as i want
+		public:
 			void *operator new(size_t size) {
 				std::cout << "into user_first's operator new" << endl;
 				return malloc(size);	
